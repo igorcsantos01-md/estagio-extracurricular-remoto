@@ -1,0 +1,6 @@
+{
+  "name": "Portal de Extensão e Estágio em Saúde — Editora Mente e Saúde & CPMDA",
+  "description": "Plataforma institucional, memorial pedagógico interativo e sistema oficial de verificação pública de autenticidade para o Estágio Extracurricular Remoto em Instituição de Ensino: Curadoria de Material Didático, Revisão Técnica e Tutoria em Saúde (Certificado Nº 09).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

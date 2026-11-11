@@ -1,0 +1,194 @@
+﻿MANUAL OPERACIONAL PASSO A PASSO: CRIAÇÃO DE CERTIFICADOS DE 2 LAUDAS COM SITE AUTENTICADOR (PADRÃO ITEM 09 - FUBOG)
+* Profissional Titular: LUCAS GONÇALVES SILVEIRA
+* Qualificação e Vínculo: Médico | CPF: 702.794.941-57 | Centro Universitário Alfredo Nasser (UNIFAN)
+|---|Editora Mente e Saúde (CNPJ: 51.372.335/0001-71) e Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83)
+* Objetivo Curricular: Item 09 — Atividades Extracurriculares (Cursos de extensão, estágios em instituições de ensino, cursos de língua e de computação, aprovação em concursos, congressos médicos — Mínimo de 30 horas por certificado).
+PARTE 1: ANATOMIA TÉCNICA E PADRÃO ESTRUTURAL DO CERTIFICADO (MODELO DE REFERÊNCIA DE 2 LAUDAS)
+Para manter 100% de fidelidade ao padrão visual e documental já aprovado nos certificados do Item 08 (como os modelos EMS-EXT-2023-0418 e EMS-EXT-2026-1042), todo certificado deve ser construído em formato A4 Paisagem (297mm x 210mm) com exatamente 2 laudas (Frente e Verso) e integrado a uma Aplicação Web Autenticadora (hospedada na Vercel) com busca automática por parâmetro de URL (?codigo=...#validador), Chave de Controle e Hash SHA-256.
+1.1. Estrutura da Lauda 1 (Frente do Certificado)
+   1. Cabeçalho Institucional Tripartido:
+   * Bloco Esquerdo: Logotipo com fundo transparente + EDITORA MENTE E SAÚDE | CNPJ: 51.372.335/0001-71 | Conselho Editorial e Extensão Científica (ou Divisão de Educação Continuada EAD).
+   * Bloco Central: Título do Programa Interinstitucional (PROGRAMA INTERINSTITUCIONAL DE EXTENSÃO, COMUNICAÇÃO CIENTÍFICA E EDUCAÇÃO EM SAÚDE) acompanhado de três pílulas/badges de rastreabilidade:
+   * Certificado N° [XX]
+   * Livro de Extensão/Cursos n° [XX/202X]
+   * Cód. [EMS-EXT-202X-XXXX]
+   * Bloco Direito: Logotipo com fundo transparente (sem números de telefone) + CENTRO PROFISSIONALIZANTE MARIA DALVA DE ARAÚJO | CNPJ: 51.269.112/0001-83.
+   2. Título Principal e Chamada Institucional:
+   * Título centralizado em destaque: CERTIFICADO DE ATIVIDADE EXTRACURRICULAR — CURSO DE EXTENSÃO (ou a modalidade específica do Item 09).
+   * Parágrafo de abertura padrão: "A Editora Mente e Saúde (CNPJ: 51.372.335/0001-71), em parceria institucional com o Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83), certifica para os devidos fins de comprovação curricular e acadêmica que"
+   3. Bloco de Identificação do Titular (Padrão Fixo UNIFAN):
+   * Nome em caixa alta e fonte de destaque: LUCAS GONÇALVES SILVEIRA
+   * Linha de qualificação padronizada: Médico | CPF: 702.794.941-57 | Centro Universitário Alfredo Nasser (UNIFAN)
+   4. Corpo Descritivo Duplo (Regra do Item 09):
+   * 1º Parágrafo (Dados Objetivos e Gatilhos do Edital): Declara a conclusão com APROVAÇÃO, o título exato da atividade em negrito, o enquadramento explícito no Item 09 (Curso de Extensão, Curso de Computação, Curso de Língua, Estágio em Instituição de Ensino ou Congresso Médico), o período de realização e a carga horária total igual ou superior a 30 horas (ex.: 36 (trinta e seis) horas ou 40 (quarenta) horas).
+   * 2º Parágrafo (Escopo Técnico-Pedagógico): Detalha as competências práticas, a metodologia de ensino (ambiente virtual de aprendizagem, estudo dirigido de literatura médica, resolução de casos ou prática computacional/linguística) e a avaliação final de aproveitamento.
+   * Local e Data: Goiânia - GO, [Dia] de [Mês] de [Ano].
+   5. Rodapé de Assinaturas e Bloco Central de Fé Pública:
+   * Esquerda: Rubrica limpa da Dra./Editora BÁRBARA LIMA DOS SANTOS | Editora-Chefe e Coordenadora de Extensão Editorial | Editora Mente e Saúde (CNPJ: 51.372.335/0001-71).
+   * Centro (Trava de Autenticidade Tripla):
+   * Selo Oficial / Fé Pública contendo o código do certificado.
+   * Quadro de Autenticação Pública Manual + QR Code: Exibe Cód.: [EMS-...], Chave: [XXXX-XXXX-XXXX-XXXX] e Endereço p/ Verificação Online: https://[subdominio].vercel.app/?codigo=[CODIGO]#validador.
+   * Direita: Rubrica limpa de JAMES ARAÚJO DE SANTANA | Coordenador de Extensão e Projetos Educativos | Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83).
+   * Barra Inferior: Instrução direta de verificação via QR Code ou acesso à URL informando Código ou Chave.
+1.2. Estrutura da Lauda 2 (Verso Oficial — Memorial Descritivo e Registro Acadêmico)
+   1. Cabeçalho do Verso:
+   * Título: MEMORIAL DESCRITIVO E REGISTRO ACADÊMICO DE ATIVIDADE EXTRACURRICULAR
+   * Subtítulo: Verso Oficial do Certificado N° [XX] • Fé Pública Interinstitucional e Validação Curricular
+   2. Quadro 1 — DADOS DE IDENTIFICAÇÃO DO PROFISSIONAL:
+   * Titular Certificado: LUCAS GONÇALVES SILVEIRA
+   * CPF Registrado: 702.794.941-57
+   * Qualificação Profissional: Médico
+   * Instituição de Origem: Centro Universitário Alfredo Nasser (UNIFAN)
+   3. Quadro 2 — ENQUADRAMENTO CURRICULAR E PONTUAÇÃO:
+   * Enquadramento: Item 09 - Atividades Extracurriculares: Cursos de extensão, estágios em instituições de ensino, cursos de língua e de computação, aprovação em concursos, congressos médicos (Mínimo de 30 horas por certificado)
+   * Período e Carga Horária: Período: [Data Inicial a Data Final] | Total: [XX]h | Situação: APROVADO (Nota/Aproveitamento)
+   4. Quadro 3 — MATRIZ PROGRAMÁTICA E METODOLOGIA (TABELA DE 4 EIXOS SOMANDO 30H OU MAIS):
+
+
+Eixo e Subtítulo Técnico
+	Descrição Analítica
+	Carga Horária Parcial
+	Eixo I — Delineamento de Pesquisa e Arquitetura IMRDRedação Científica Biomédica e Estruturação de Manuscritos
+	Formulação da pergunta de pesquisa clínica, construção da Introdução fundamentada, descrição reprodutível de Materiais e Métodos, apresentação de Resultados em tabelas/figuras e estruturação crítica da Discussão.
+	10h 00min
+	Eixo II — Normalização Documental Internacional (Vancouver e ABNT)Diretrizes do ICMJE, Citações Diretas/Indiretas e Indexação Descritiva
+	Padronização de referências bibliográficas segundo o International Committee of Medical Journal Editors (Estilo Vancouver) e normas ABNT (NBR 6023/10520), com uso de descritores DeCS/MeSH.
+	08h 00min
+	Eixo III — Ética Editorial, Integridade Científica e Fluxo Peer ReviewBoas Práticas em Publicação Médica, COPE e Periódicos com Corpo Editorial
+	Diretrizes éticas em pesquisa biomédica, prevenção ao plágio e autoplágio, escolha de periódicos científicos com ISSN e corpo editorial, carta de apresentação (cover letter) e resposta aos revisores.
+	10h 00min
+	Eixo IV — Estudo Dirigido em Literatura Metodológica e Avaliação FinalPrática de Revisão Crítica de Artigos e Exame de Certificação
+	Leitura dirigida do guia metodológico da Editora Mente e Saúde, análise estrutural de artigos médicos publicados e aprovação na avaliação somativa online com aproveitamento de 96% (Nota 9,6).
+	08h 00min
+	
+
+   5. Quadro 4 — REGISTRO OFICIAL DE FÉ PÚBLICA, ENDEREÇO WEB E CHAVES DE VERIFICAÇÃO DE AUTENTICIDADE:
+   * Texto formal de averbação no Livro, Folha e CNPJs das instituições.
+   * CÓDIGO DE AUTENTICIDADE: EMS-EXT-2023-0901 (ou padrão correspondente)
+   * CHAVE DE CONTROLE / DÍGITO: 0901-7027-9457-9A3C
+   * ENDEREÇO PARA VERIFICAÇÃO MANUAL (SEM QR CODE): https://[subdominio].vercel.app/?codigo=EMS-EXT-2023-0901#validador
+   * HASH SHA-256: String hexadecimal de 64 caracteres finalizada com o número do certificado (...0901).
+   * Rodapé do Verso: Assinaturas compactas da Bárbara Lima dos Santos e James Araújo de Santana, local/data e chancela "Documento Oficial de 2 Laudas (Frente e Verso) • Válido em Todo o Território Nacional".
+PARTE 2: PASSO A PASSO DE EXECUÇÃO (DO CÓDIGO AO PDF E DEPLOY NA VERCEL)
+Siga este fluxo operacional de 5 etapas para gerar cada certificado e colocar o site autenticador no ar em menos de 10 minutos:
+
+
+   1. Etapa 1 — Definição do Subdomínio Vercel e Chaves Criptográficas:
+   * Defina um nome de projeto curto e sem espaços para a Vercel (ex.: extensao-escrita-cientifica-1 que gerará a URL https://extensao-escrita-cientifica-1.vercel.app/).
+   * Gere o Código de Autenticidade (ex.: EMS-EXT-2023-0901), a Chave de Controle combinando o final do código e dígitos do CPF (0901-7027-9457-9A3C) e o Hash SHA-256 de 64 caracteres.
+   2. Etapa 2 — Geração da Aplicação Unificada via IA (Prompt da Parte 3):
+   * Copie o Prompt Mestre da Parte 3 deste documento e envie para a IA junto com as imagens das logos e assinaturas.
+   * A IA entregará um arquivo index.html completo (Single-Page Application) que contém tanto o Portal Público do Curso + Validador de Certificados Interativo quanto o Certificado Oficial de 2 Laudas (Frente e Verso) formatado para impressão nativa em A4 Paisagem (@media print).
+   3. Etapa 3 — Teste do Validador e Geração Automática do QR Code:
+   * Abra o arquivo index.html no navegador. Verifique se o QR Code aponta exatamente para https://extensao-escrita-cientifica-1.vercel.app/?codigo=EMS-EXT-2023-0901#validador e se o validador reconhece tanto o Código quanto a Chave de Controle, exibindo o selo verde de "CERTIFICADO AUTÊNTICO E VÁLIDO — APROVADO".
+   4. Etapa 4 — Exportação do PDF Oficial de 2 Laudas:
+   * Clique no botão "Imprimir / Baixar Certificado Oficial (PDF 2 Laudas)" na página (ou pressione Ctrl + P).
+   * Nas configurações de impressão do Chrome/Edge, selecione:
+   * Destino: Salvar como PDF
+   * Layout: Paisagem (Horizontal)
+   * Tamanho do papel: A4
+   * Margens: Nenhuma (ou Padrão, conforme o CSS @page configurar automaticamente)
+   * Gráficos de segundo plano: Ativado (Obrigatório para manter cores, selos e fundos).
+   * Confira se o PDF final possui exatamente 2 páginas (Lauda 1: Frente / Lauda 2: Verso) sem quebras indesejadas.
+   5. Etapa 5 — Publicação Instantânea na Vercel (Site Autenticador Ativo):
+   * Suba a pasta contendo o index.html na Vercel (via GitHub ou Vercel CLI / Drag-and-Drop) com o nome do projeto extensao-escrita-cientifica-1.
+   * Teste a leitura do QR Code do PDF com a câmera do celular: ele abrirá o site na seção #validador com o código EMS-EXT-2023-0901 já preenchido e validado automaticamente.
+PARTE 3: PROMPT MESTRE PARA GERAR O 1º CERTIFICADO DO ITEM 09 + SITE AUTENTICADOR COMPLETO
+Copie integralmente o comando abaixo e cole na IA (anexando os logotipos e as assinaturas da Editora Mente e Saúde e do Centro Profissionalizante Maria Dalva de Araújo):
+INÍCIO DO PROMPT PARA COPIAR E COLAR
+CONTEXTO E OBJETIVO:
+Você é um Engenheiro Front-End Sênior e Designer Editorial Acadêmico. Sua missão é criar uma aplicação web completa em um único arquivo (index.html com HTML5, TailwindCSS/CSS3 avançado e JavaScript puro) que cumpra simultaneamente duas funções:
+
+
+   1. Na visualização em tela (Web): Funcionar como o Portal Institucional e Sistema Oficial de Verificação Pública de Autenticidade (para ser hospedado em https://extensao-escrita-cientifica-1.vercel.app/), exibindo as informações do Curso de Extensão EAD, a ementa pedagógica, o repositório do material didático e o Validador Eletrônico de Certificados (#validador) com leitura automática via parâmetro de URL (?codigo=EMS-EXT-2023-0901), validação por Código ou Chave de Controle, e botão para visualizar/imprimir o certificado.
+   2. No modo de impressão/exportação (@media print e visualização de documento na tela): Renderizar com perfeição cirúrgica o Certificado Oficial de 2 Laudas em A4 Paisagem (297mm x 210mm — Frente na Página 1 e Verso na Página 2), seguindo exatamente o layout, a tipografia, a densidade acadêmica, os selos de fé pública, os quadros de eixos e o rodapé dos certificados de referência (EMS-EXT-2023-0418 e EMS-EXT-2026-1042).
+
+
+________________
+
+
+1. REGRAS DE TRATAMENTO DE IMAGENS E ASSINATURAS (OBRIGATÓRIO)
+   * Editora Mente e Saúde (CNPJ: 51.372.335/0001-71): Use o logotipo com fundo transparente (ou gere um brasão/logotipo SVG editorial de alta precisão caso a imagem não carregue). Assinatura de BÁRBARA LIMA DOS SANTOS (Editora-Chefe e Coordenadora de Extensão Editorial | Editora Mente e Saúde (CNPJ: 51.372.335/0001-71)) com rubrica caligráfica limpa em azul/preto sem fundo cinza.
+   * Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83): Use o logotipo da lâmpada em quebra-cabeça azul SEM números de telefone. Assinatura de JAMES ARAÚJO DE SANTANA (Coordenador de Extensão e Projetos Educativos | Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83)) com rubrica caligráfica limpa e CNPJ grafado corretamente como 51.269.112/0001-83.
+
+
+________________
+
+
+2. DADOS EXATOS DO CERTIFICADO Nº 01 DO ITEM 09 (ATIVIDADES EXTRACURRICULARES >= 30 HORAS)
+   * Titular Certificado: LUCAS GONÇALVES SILVEIRA
+   * Linha de Qualificação e IES (manter idêntica ao padrão): Médico | CPF: 702.794.941-57 | Centro Universitário Alfredo Nasser (UNIFAN)
+   * Enquadramento no Edital FUBOG: Item 09 - Atividades Extracurriculares: Cursos de extensão, estágios em instituições de ensino, cursos de língua e de computação, aprovação em concursos, congressos médicos (Pelo menos 30 horas por certificado)
+   * Número e Livro de Registro: Certificado N° 01 | Livro de Cursos e Extensão n° 01/2023 | Folha 18
+   * Código de Autenticidade: EMS-EXT-2023-0901
+   * Chave de Controle / Dígito: 0901-7027-9457-9A3C
+   * Endereço de Verificação Online: https://extensao-escrita-cientifica-1.vercel.app/?codigo=EMS-EXT-2023-0901#validador
+   * Hash SHA-256: 4a9c8e12b7d03f56a1829e40c6b51d29e8f17a63b4c52d90f1837e2a5b6c0901
+   * Título da Atividade: "Curso de Extensão EAD em Escrita Científica, Normas Editoriais (Vancouver/ABNT) e Publicação de Artigos Biomédicos"
+   * Modalidade Curricular: Curso de Extensão e Qualificação Científica em Saúde (Modalidade EAD)
+   * Período de Realização: 10 de abril a 05 de maio de 2023
+   * Data de Emissão: Goiânia - GO, 12 de maio de 2023.
+   * Carga Horária Total: 36 (trinta e seis) horas
+   * Situação Final e Aproveitamento: Concluído com APROVAÇÃO (Nota Final: 9,6 / Frequência e Aproveitamento: 100%)
+
+
+________________
+
+
+3. TEXTO EXATO DA LAUDA 1 (FRENTE DO CERTIFICADO)
+   * Cabeçalho Superior:
+   * Esquerda: EDITORA MENTE E SAÚDE | CNPJ: 51.372.335/0001-71 | Conselho Editorial e Extensão Científica
+   * Centro: PROGRAMA INTERINSTITUCIONAL DE EXTENSÃO, COMUNICAÇÃO CIENTÍFICA E EDUCAÇÃO EM SAÚDE
+   * Badges Centrais: Certificado N° 01 | Livro de Extensão n° 01/2023 | Cód. EMS-EXT-2023-0901
+   * Direita: CENTRO PROFISSIONALIZANTE MARIA DALVA DE ARAÚJO | CNPJ: 51.269.112/0001-83
+   * Título Principal: CERTIFICADO DE CURSO DE EXTENSÃO
+   * Texto de Certificação (Parágrafo 1):
+"A Editora Mente e Saúde (CNPJ: 51.372.335/0001-71), em parceria institucional com o Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83), certifica para os devidos fins de comprovação curricular, acadêmica e de títulos (em conformidade com a Lei nº 9.394/96 e Decreto nº 5.154/2004) que"
+   * Destaque do Titular:
+LUCAS GONÇALVES SILVEIRA
+Médico | CPF: 702.794.941-57 | Centro Universitário Alfredo Nasser (UNIFAN)
+   * Continuação do Parágrafo 1:
+"concluiu com APROVAÇÃO e aproveitamento integral a Atividade Extracurricular intitulada "Curso de Extensão EAD em Escrita Científica, Normas Editoriais (Vancouver/ABNT) e Publicação de Artigos Biomédicos", desenvolvida na modalidade de Curso de Extensão, realizada no período de 10 de abril a 05 de maio de 2023, contabilizando carga horária total de 36 (trinta e seis) horas."
+   * Texto Metodológico (Parágrafo 2):
+"No âmbito desta formação complementar em ambiente virtual de aprendizagem, o profissional cumpriu integralmente os módulos teóricos e práticos de estruturação lógica de manuscritos biomédicos no padrão IMRD (Introdução, Métodos, Resultados e Discussão), normalização internacional de referências pelo Estilo Vancouver (ICMJE) e ABNT, ética em pesquisa científica, prevenção ao plágio, estratégias de submissão em periódicos indexados com revisão por pares (peer review) e avaliação final de proficiência metodológica, obtendo nota final 9,6 (Aprovado)."
+   * Local e Data: Goiânia - GO, 12 de maio de 2023.
+   * Rodapé da Frente:
+      * Assinatura esquerda: BÁRBARA LIMA DOS SANTOS (Editora-Chefe e Coordenadora de Extensão Editorial | Editora Mente e Saúde (CNPJ: 51.372.335/0001-71)).
+      * Bloco Central: SELO OFICIAL — FÉ PÚBLICA (EMS-EXT-2023-0901) + AUTENTICAÇÃO PÚBLICA MANUAL + QR Code funcional gerado via API/JS (Cód.: EMS-EXT-2023-0901 | Chave: 0901-7027-9457-9A3C | Endereço p/ Verificação Online: https://extensao-escrita-cientifica-1.vercel.app/?codigo=EMS-EXT-2023-0901#validador).
+      * Assinatura direita: JAMES ARAÚJO DE SANTANA (Coordenador de Extensão e Projetos Educativos | Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83)).
+      * Linha inferior de segurança: Verifique via QR Code ou acesse https://extensao-escrita-cientifica-1.vercel.app/?codigo=EMS-EXT-2023-0901#validador informando o Código EMS-EXT-2023-0901 ou Chave 0901-7027-9457-9A3C
+
+
+________________
+
+
+4. TEXTO EXATO DA LAUDA 2 (VERSO OFICIAL — MEMORIAL DESCRITIVO E MATRIZ DE 36 HORAS)
+      * Cabeçalho do Verso:
+      * MEMORIAL DESCRITIVO E REGISTRO ACADÊMICO DE ATIVIDADE EXTRACURRICULAR
+      * Verso Oficial do Certificado N° 01 • Fé Pública Interinstitucional e Validação Curricular
+      * Seção 1 — DADOS DE IDENTIFICAÇÃO DO PROFISSIONAL:
+      * Titular Certificado: LUCAS GONÇALVES SILVEIRA | CPF Registrado: 702.794.941-57 | Qualificação Profissional: Médico | Instituição de Origem: Centro Universitário Alfredo Nasser (UNIFAN)
+      * Seção 2 — ENQUADRAMENTO CURRICULAR E PONTUAÇÃO:
+      * Item 09 - Atividades Extracurriculares: Cursos de extensão, estágios em instituições de ensino, cursos de língua e de computação, aprovação em concursos, congressos médicos (Pelo menos 30 horas por certificado)
+      * Período: 10 de abril a 05 de maio de 2023 | Total: 36h | Situação: APROVADO (Nota: 9,6)
+      * Seção 3 — MATRIZ PROGRAMÁTICA E METODOLOGIA PEDAGÓGICA (36 HORAS):
+      * Eixo I — Delineamento de Pesquisa e Arquitetura IMRD (Redação Científica Biomédica e Estruturação de Manuscritos): Formulação da pergunta de pesquisa clínica, construção da Introdução fundamentada, descrição reprodutível de Materiais e Métodos, apresentação de Resultados em tabelas/figuras e estruturação crítica da Discussão. | 10h 00min
+      * Eixo II — Normalização Documental Internacional (Vancouver e ABNT) (Diretrizes do ICMJE, Citações Diretas/Indiretas e Indexação Descritiva): Padronização de referências bibliográficas segundo o International Committee of Medical Journal Editors (Estilo Vancouver) e normas ABNT (NBR 6023/10520), com uso de descritores DeCS/MeSH. | 08h 00min
+      * Eixo III — Ética Editorial, Integridade Científica e Fluxo Peer Review (Boas Práticas em Publicação Médica, COPE e Periódicos com Corpo Editorial): Diretrizes éticas em pesquisa biomédica, prevenção ao plágio e autoplágio, escolha de periódicos científicos com ISSN e corpo editorial, carta de apresentação (cover letter) e resposta aos revisores. | 10h 00min
+      * Eixo IV — Estudo Dirigido em Literatura Metodológica e Avaliação Final (Prática de Revisão Crítica de Artigos e Exame de Certificação): Leitura dirigida do guia metodológico da Editora Mente e Saúde, análise estrutural de artigos médicos publicados e aprovação na avaliação somativa online com aproveitamento de 96% (Nota 9,6). | 08h 00min
+      * Seção 4 — REGISTRO OFICIAL DE FÉ PÚBLICA, ENDEREÇO WEB E CHAVES DE VERIFICAÇÃO DE AUTENTICIDADE:
+      * "Certificado registrado sob o nº 01 no Livro de Extensão e Cursos nº 01/2023, Folha 18, expedido pela Editora Mente e Saúde (CNPJ: 51.372.335/0001-71) e Centro Profissionalizante Maria Dalva de Araújo (CNPJ: 51.269.112/0001-83)."
+      * CÓDIGO DE AUTENTICIDADE: EMS-EXT-2023-0901 | CHAVE DE CONTROLE / DÍGITO: 0901-7027-9457-9A3C
+      * ENDEREÇO PARA VERIFICAÇÃO MANUAL (SEM QR CODE): https://extensao-escrita-cientifica-1.vercel.app/?codigo=EMS-EXT-2023-0901#validador
+      * HASH SHA-256: 4a9c8e12b7d03f56a1829e40c6b51d29e8f17a63b4c52d90f1837e2a5b6c0901
+      * Assinaturas compactas de Bárbara Lima dos Santos e James Araújo de Santana + Goiânia - GO, 12 de maio de 2023. + Documento Oficial de 2 Laudas (Frente e Verso) • Válido em Todo o Território Nacional.
+
+
+________________
+
+
+5. REQUISITOS TÉCNICOS DE IMPRESSÃO E DO SITE AUTENTICADOR
+      1. CSS @media print: Configure @page { size: A4 landscape; margin: 0; }. Quando o usuário acionar window.print(), oculte toda a interface do site autenticador e imprima exclusivamente as 2 páginas do certificado (.cert-page-1 e .cert-page-2), cada uma ocupando exatamente 297mm de largura por 210mm de altura, com page-break-after: always na primeira lauda e print-color-adjust: exact; -webkit-print-color-adjust: exact;.
+      2. Sistema Autenticador Interativo (#validador):
+      * Ao carregar a página com ?codigo=EMS-EXT-2023-0901, preencha automaticamente o campo de busca, execute a validação e exiba um painel completo de CERTIFICADO AUTÊNTICO E VÁLIDO (FÉ PÚBLICA CONFIRMADA) mostrando todos os dados do titular (LUCAS GONÇALVES SILVEIRA — Médico | CPF: 702.794.941-57 | Centro Universitário Alfredo Nasser - UNIFAN), a carga horária (36 horas — Aprovado Nota 9,6), o Hash SHA-256 e um botão para visualizar/baixar o PDF do certificado.
+FIM DO PROMPT PARA COPIAR E COLAR
